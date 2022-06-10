@@ -1,0 +1,7 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe"
+}

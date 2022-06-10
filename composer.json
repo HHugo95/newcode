@@ -1,0 +1,17 @@
+{
+    "name": "hugo/palpit",
+    "description": "Site de armazenamento de arquivo tatil",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HugoHSLima",
+            "email": "hugo.hslima@gmail.com"
+        }
+    ],
+    "require": {}
+}

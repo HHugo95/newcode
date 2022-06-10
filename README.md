@@ -1,2 +1,0 @@
-# newcode
-Rework do palpit
