@@ -5,9 +5,12 @@ use core\classes\Functions;
 // sessão iniciada
 session_start();
 
-// iniciar o config
-require_once('../config.php');
-
+//iniciar classes
 require_once('../vendor/autoload.php');
 
-echo "ok";
+//iniciar rotas
+require_once('../core/rotas.php');
+
+//$bd = new Database();
+//$disciplina = $bd->select("SELECT * FROM disciplina");
+//echo $disciplina[2]->nome_disciplina;

@@ -3,7 +3,7 @@
         'name' => 'hugo/palpit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9a5e085db9aca56a7bb2cb0018efd3a7d84aadba',
+        'reference' => '04b47d12d754abaca9974cd22d2bd85d71002f13',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'hugo/palpit' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9a5e085db9aca56a7bb2cb0018efd3a7d84aadba',
+            'reference' => '04b47d12d754abaca9974cd22d2bd85d71002f13',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

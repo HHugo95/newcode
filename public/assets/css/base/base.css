@@ -1,0 +1,168 @@
+
+
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+body {
+	background-color: var(--azul-5);
+	color: var(--cinza-1);
+	font-family: var(--fonte-familia-corpo);
+	overflow-x: hidden;
+	letter-spacing: -0.5px;
+	line-height: 1.2;
+	font-size: var(--fonte-tamanho-primaria);
+}
+/*Presente em todas as paginas*/
+.center { 
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Páginas com um cartão pequeno*/
+.container-xs{
+	margin-top: 4vw;
+	max-width: 27rem;
+    min-width: 15rem;
+}
+/*Páginas com um cartão grande */
+.container-xx{
+	margin-top: 1rem;
+	max-width: 1124px;
+	min-width: 15rem;
+}
+/*Páginas com dois cartões, um pequeno e um grande*/
+.container-xl{
+	margin-top: 0.5rem;
+	max-width: 1280px;	
+	min-width: 15rem;
+}
+
+.container--titulo{
+	font-size: var(--fonte-tamanho-titulo);
+	font-weight: var(--fonte-peso-medium);
+	color: var(--cinza-2);
+	margin-right: 0.5rem;
+}
+
+.a{
+	border: none;
+	outline: none;
+	font-size: 14px;
+	color: var(--cinza-1);
+}
+
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+
+.bold{
+	font-weight: var(--fonte-peso-medium);
+}
+.flex {
+	display: flex;
+}
+.space-between{
+	justify-content: space-between;
+}
+.flex-items-center{
+	align-items: center;
+}
+.flex-items-end{
+	align-items: flex-end;
+}
+.flex-coluna {
+	flex-direction: column;
+}
+.flex-shrink-0{
+	flex-shrink: 0;
+}
+.flex--end{
+	align-items: center;
+	margin-left: auto;
+	justify-content: flex-end;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+.block{
+	display: block;
+}
+.relative{
+	position: relative;
+}
+.border{
+	border: 2px solid var(--azul-claro-transparente);
+}
+.border-bottom{
+	margin-bottom: 1rem;
+	border-bottom: 1px solid var(--cinza-6);
+}
+.width-full{
+	width: 100%;
+}
+.height-full{
+	height: 100%;
+}
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+}
+.link-container{
+  text-decoration: none;
+  cursor: pointer;
+}
+.link-container:hover{
+	text-decoration: underline;
+}
+.link-color{
+	color: var(--azul-1);
+}
+.link-externo{
+	font-weight: var(--fonte-peso-bold);
+	font-size: var( --fonte-tamanho-secundaria);
+	text-transform: uppercase;
+}
+.material-icons-outlined, .material-icons{
+	vertical-align: middle;
+	margin-right: 0.25rem;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+}
+.sucesso{
+	color: var(--cor-sucesso);
+}
+
+
+@media screen and (min-width: 768px) {
+	.flex--row{
+		flex-direction: row;
+	}
+
+	.flex--centro {
+		justify-content: center;
+	}
+	.px-5{
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+
+	.flex-start{
+		align-items: flex-start;
+	}
+	.container-xl{
+		margin-top: 1rem;
+	}
+	.container--titulo{
+		font-size: 22px;
+	}
+}
+@media screen and (min-width:  1024px) {
+
+	
+}

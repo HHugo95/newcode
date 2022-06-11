@@ -1,0 +1,102 @@
+.input-container{
+    font-weight: var(--fonte-peso-input);
+    position: relative;
+    margin-bottom: 0.25rem;
+    box-sizing: border-box;
+}
+.input{
+    border: 2px solid var(--cinza-4);
+    background-color: var(--contraste-claro);
+    border-radius: 6px;
+    padding-left: 0.75rem;
+    height: 2.5rem;
+}
+
+.input-full{
+    width: 100%;
+}
+
+.input::placeholder{
+    color: var(--cinza-4);
+    font-weight: var(--fonte-peso-regular);
+    padding-left: 0.05rem;
+    vertical-align: middle;
+}
+.input:hover{
+    background-color: var(--azul-10);
+}
+.input:focus {
+    outline: none;
+    background-color: var(--contraste-claro);
+    border: 2px solid  var(--azul-2);
+    box-shadow: -1px 0px 0px 3px var(--azul-sombra-focus);
+    -webkit-box-shadow: -1px 0px 0px 3px var(--azul-sombra-focus);
+    -moz-box-shadow: -1px 0px 0px 3px var(--azul-sombra-focus);
+}
+.input--label{
+    display: block;
+    text-align: left;
+    font-weight: var(--fonte-peso-medium);
+    color: var(--cinza-1);
+    padding-top: 0.25rem;
+    padding-left: 0.25rem;
+    line-height: 1;
+}
+.input--label::after{
+    color: var(--cor-aviso);
+    content: "";
+    padding-left: 5px;
+  }
+.checkbox--label{
+    display: block;
+    text-align: justify;
+    line-height: 1.25;
+
+}
+.option{
+    font-family: var(--fonte-familia-corpo);
+    background-color: var(--contraste-claro);
+    font-size: var(--fonte-tamanho-primaria);
+    padding: 0 0.75rem;
+    color: var(--cinza-2);
+}
+.textarea{
+    min-height: 4rem;
+    width: 100%;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+.label--order{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    line-height: 2;
+    width: 100%;
+}
+.dropdow--order{
+    margin-left: 0.5rem;
+    cursor: pointer;
+    border: 1px solid var(--cinza-4);
+    font-family: var(--fonte-familia-corpo);
+    background-color: var(--contraste-claro);
+    font-size: var(--fonte-tamanho-primaria);
+    padding: 0 0.75rem;
+    color: var(--cinza-2);
+    height: 100%;
+    line-height: 60px;
+}
+
+.dropdow--order:focus {
+    outline: none;
+    line-height: 60px;
+}
+@media screen and (min-width: 495px) {
+    .label--order{
+    justify-content: unset;
+    width: auto;
+    }
+}

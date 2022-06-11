@@ -1,6 +1,6 @@
 <?php
 
-//namespace classes;
+namespace core\classes;
 
 use Exception;
 use PDO;
@@ -15,8 +15,8 @@ class Database{
         $this->conexao = new PDO(
             'mysql:'.
             'host='.MYSQL_SERVER.';'.
-            'dbname='.MYSQL_DATABASE.';'.
-            'charset='.MYSQL_CHARSET,
+            'dbname='.MYSQL_DATABASE.';',
+            //'charset='.MYSQL_CHARSET,
             MYSQL_USER,
             MYSQL_PASS,
             array(PDO::ATTR_PERSISTENT => true)
